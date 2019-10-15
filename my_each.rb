@@ -3,4 +3,7 @@ while i < array.length
       yield(array[i])
       i = i + 1
     end
+    my_each do |i|
+      array[i]
+    end
 end
