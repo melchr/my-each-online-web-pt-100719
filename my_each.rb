@@ -2,8 +2,8 @@ def my_each(array)
 while i < array.length
       yield(array[i])
       i = i + 1
-    end
-    do |i|
+          do |i|
       array[i]
+    end
     end
 end
